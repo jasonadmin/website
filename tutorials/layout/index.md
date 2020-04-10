@@ -62,7 +62,7 @@ summary: 本文详细的介绍了如何使用Flutter构建用户界面，然后�
  [`lake.jpg`](https://raw.githubusercontent.com/flutter/website/master/examples/layout/lakes/step5/images/lake.jpg).
   (请注意，wget不能保存此二进制文件。)
 * 更新
-  [`pubspec.yaml`](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/pubspec.yaml)
+  [`pubspec.yaml`](https://github.com/flutter/website/blob/master/examples/layout/lakes/step5/pubspec.yaml)
   文件以包含 `assets` 标签. 这样才会使您的图片在代码中可用。
 
 <hr>
@@ -111,7 +111,7 @@ summary: 本文详细的介绍了如何使用Flutter构建用户界面，然后�
 <aside class="alert alert-info" markdown="1">
 **Note:**
 If you have problems, you can check your code against
-[`lib/main.dart`](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/main.dart)
+[`lib/main.dart`](https://github.com/flutter/website/blob/master/examples/layout/lakes/step5/lib/main.dart)
 on GitHub.
 </aside>
 
@@ -333,9 +333,9 @@ body: new ListView(
 //...
 {% endprettify %}
 
-**Dart 代码:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/main.dart)<br>
-**Image:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/lakes/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/pubspec.yaml)
+**Dart 代码:** [main.dart](https://github.com/flutter/website/tree/master/examples/layout/lakes/step6/lib/main.dart)<br>
+**Image:** [images](https://github.com/flutter/website/tree/master/examples/layout/lakes/step6/images)<br>
+**Pubspec:** [pubspec.yaml](https://github.com/flutter/website/blob/master/examples/layout/lakes/step6/pubspec.yaml)
 
 结束了！当您热重载应用程序时，就会看到和截图中相同界面。您可以参考 [给Flutter APP 添加交互](/tutorials/interactive/)来给您的应用添加交互。
 
@@ -619,9 +619,9 @@ class MyApp extends StatelessWidget {
 
 <center><img src="images/row-spaceevenly-visual.png" style="border:1px solid black" alt="a row showing 3 images spaced evenly in the row"></center>
 
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/row/main.dart)<br>
-**Images:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/row/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/row/pubspec.yaml)
+**Dart code:** [main.dart](https://github.com/flutter/website/tree/master/examples/layout/row_column/lib/main.dart)<br>
+**Images:** [images](https://github.com/flutter/website/tree/master/examples/layout/row_column/images)<br>
+**Pubspec:** [pubspec.yaml](https://github.com/flutter/website/blob/master/examples/layout/row_column/pubspec.yaml)
 
 </div> </div>
 
@@ -632,9 +632,9 @@ class MyApp extends StatelessWidget {
 
 {% include includelines filename="code/layout/column/main.dart" start=40 count=8 %}
 
-**Dart code:** [main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/column/main.dart)<br>
-**Images:** [images](https://github.com/flutter/website/tree/master/_includes/code/layout/column/images)<br>
-**Pubspec:** [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/column/pubspec.yaml)
+**Dart code:** [main.dart](https://github.com/flutter/website/tree/master/examples/layout/row_column/lib/main.dart)<br>
+**Images:** [images](https://github.com/flutter/website/tree/master/examples/layout/row_column/images)<br>
+**Pubspec:** [pubspec.yaml](https://github.com/flutter/website/blob/master/examples/layout/row_column/pubspec.yaml)
 
 </div> <div class="col-md-3" markdown="1">
 
